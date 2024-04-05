@@ -91,7 +91,7 @@ class _NewExpenseState extends State<NewExpense>{
                   print(_titleController.text);
                   print(_amountController.text);
                 }, 
-                child: const Text('Save'))
+                child: const Text('Save')),
             ],
           )
         ],
